@@ -1,0 +1,213 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    outline-style: groove;
+    outline-width: 0.9rem;
+    padding: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 122, 204);
+    outline-color: rgb(0, 122, 204);
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+nav a {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+#header_title {
+    font-family: fantasy;
+    font-size: 4rem;
+    margin: 0;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+div {
+
+    padding: inherit;
+}
+
+#first_flex_wrapper {
+    display: flex;
+    flex-direction: row;
+
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#table_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: #3399ff;
+    color: white;
+}
+
+table td,
+table tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#desc_sec_wrapper {
+    display: flex;
+    flex-direction: column;
+    outline-color: #cccccc;
+    outline-style: groove;
+}
+
+#desc_sec_wrapper h3 {
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    z-index: 100;
+    text-shadow: .04em .04em 0 #9cb8b3;
+    padding: 1rem;
+}
+
+#feature_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feature_section ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    margin-top: -2em;
+}
+
+ul li {
+    color: dodgerblue;
+    list-style-type: none;
+    font-size: 2rem;
+    margin: 1em;
+}
+
+#logo {
+    flex 2;
+    background-color: rgba(0, 255, 255, 0.6);
+}
+
+#nav_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    outline-color: #cccccc;
+    outline-style: groove;
+    padding: 1rem;
+}
+
+.form_in {
+    width: 75%;
+    margin-top: 1em;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buy_me_logo {
+    width: 7em;
+    position: fixed;
+    opacity: 0.9
+}
+
+#left_up_corner {
+
+    top: 0;
+    left: 0;
+}
+#right_up_corner {
+
+    top: 0;
+    right: 0;
+}
+#right_down_corner {
+
+    bottom: 0;
+    right: 0;
+}
+#left_down_corner {
+
+    bottom: 0;
+    left: 0;
+}

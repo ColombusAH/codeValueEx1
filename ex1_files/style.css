@@ -1,0 +1,43 @@
+body {
+    padding: 1.5em;
+
+
+}
+
+header {
+    border: 3.3rem;
+    outline-style: groove;
+    outline-width: 0.9rem;
+    padding: 0.3rem;
+    background-color: rgb(0, 255, 255);
+    border-color: rgb(0, 122, 204);
+    outline-color: rgb(0, 122, 204);
+    text-align: center;
+}
+
+.flex_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    outline-color: aqua;
+    outline-width: thin;
+
+
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+nav li {
+    padding-left: 3em;
+}
+
+table {
+
+}
+
