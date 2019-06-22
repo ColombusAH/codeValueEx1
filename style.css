@@ -185,6 +185,16 @@ input[type=reset] {
     cursor: pointer;
 }
 
+input[type=text],
+input[type=email] {
+    width: 20em;
+    height: 2em;
+}
+input[type=text]:focus,
+input[type=email]:focus {
+    background-color: aquamarine;
+}
+
 .buy_me_logo {
     width: 7em;
     position: fixed;
