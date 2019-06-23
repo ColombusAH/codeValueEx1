@@ -1,4 +1,3 @@
-
 body {
     display: flex;
     flex-direction: column;
@@ -13,7 +12,6 @@ header {
     margin-bottom: 2rem;
     outline-style: groove;
     outline-width: 0.9rem;
-    padding: 0.3rem;
     background-color: rgb(255, 255, 255);
     border-color: rgb(0, 122, 204);
     outline-color: rgb(0, 122, 204);
@@ -92,7 +90,7 @@ table {
     border: 3px solid;
 }
 
-table th {
+th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
@@ -101,14 +99,14 @@ table th {
     color: white;
 }
 
-table td,
-table tr {
+td,
+tr {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
 
-table tr:nth-child(odd) {
+ tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
 
@@ -212,7 +210,7 @@ input[type=email]:focus {
 .buy_me_logo {
     width: 7em;
     position: fixed;
-    opacity: 0.9
+    z-index: -1;
 }
 
 #left_up_corner {
