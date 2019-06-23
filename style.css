@@ -1,12 +1,15 @@
+
 body {
     display: flex;
     flex-direction: column;
     padding: 2em;
 }
 
+
 header {
     display: flex;
     flex-direction: row;
+    margin-top: 6em;
     margin-bottom: 2rem;
     outline-style: groove;
     outline-width: 0.9rem;
@@ -169,6 +172,7 @@ form {
     outline-color: #cccccc;
     outline-style: groove;
     padding: 1rem;
+    margin-bottom: 6em;
 }
 
 .form_in {
@@ -185,11 +189,21 @@ input[type=reset] {
     cursor: pointer;
 }
 
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: darkblue;
+    border-color: red;
+    outline-width: 2px;
+    font-size: 1em;
+}
+
+
 input[type=text],
 input[type=email] {
     width: 20em;
     height: 2em;
 }
+
 input[type=text]:focus,
 input[type=email]:focus {
     background-color: aquamarine;
@@ -206,16 +220,19 @@ input[type=email]:focus {
     top: 0;
     left: 0;
 }
+
 #right_up_corner {
 
     top: 0;
     right: 0;
 }
+
 #right_down_corner {
 
     bottom: 0;
     right: 0;
 }
+
 #left_down_corner {
 
     bottom: 0;
